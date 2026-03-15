@@ -1,0 +1,8 @@
+role: swe_backend_data
+model: gemini
+model_name: gemini-3-flash-preview
+input_format: latex
+input: input/resume_faang.tex
+output_format: latex
+output: output/tailored_resume.tex
+output_pdf: output/tailored_resume.pdf
