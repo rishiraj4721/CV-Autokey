@@ -5,7 +5,7 @@ Automatically tailor your resume to job postings using AI. CV-Autokey extracts k
 ## Features
 
 - **Job Description Analysis**: Automatically scrapes and analyzes job descriptions from URLs
-- **AI-Powered Tailoring**: Uses Gemini AI to extract technical keywords and tailor resume content
+- **AI-Powered Tailoring**: Use popular LLM models or use self hosted models to extract technical keywords and tailor resume content
 - **Smart Caching**: Caches API responses to avoid redundant calls for the same job posting
 - **LaTeX Support**: Generates professionally formatted PDF resumes with LaTeX
 - **Configurable**: YAML-based configuration for different roles and models
