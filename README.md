@@ -138,10 +138,10 @@ Cache keys are based on SHA256 hashes of function inputs.
 
 ## Dependencies
 
-- Python 3.8+
 - pdflatex (for PDF generation)
+- Python 3.8+
 - python-dotenv
-- google-generativeai (or similar for Gemini)
+- google-genai (or similar for Gemini)
 - PyYAML
 
 See `requirements.txt` for full list.
