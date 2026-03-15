@@ -146,6 +146,63 @@ Cache keys are based on SHA256 hashes of function inputs.
 
 See `requirements.txt` for full list.
 
+## Contributing
+
+We welcome contributions! Here's how you can help:
+
+### Setting Up for Development
+
+1. Clone and set up the repository:
+   ```bash
+   git clone <repository-url>
+   cd CV-Autokey
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+2. Install development dependencies:
+   ```bash
+   pip install -r requirements.txt
+   pip install -r requirements-test.txt
+   ```
+
+### Running Tests
+
+Run the test suite using pytest:
+```bash
+pytest tests/
+```
+
+### Code Style
+
+- Follow PEP 8 guidelines
+- Use meaningful variable and function names
+- Add docstrings to functions and classes
+- Keep functions focused and modular
+
+### Submitting Changes
+
+1. Create a new branch for your feature:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+2. Make your changes and test thoroughly
+3. Commit with clear, descriptive messages:
+   ```bash
+   git commit -m "Add feature: description of changes"
+   ```
+
+4. Push and open a pull request with a description of your changes
+
+### Reporting Issues
+
+Please report bugs and feature requests using the GitHub Issues page. Include:
+- Clear description of the issue
+- Steps to reproduce (for bugs)
+- Expected vs actual behavior
+- Python version and environment details
+
 ## Sources
 
 - [FAANGPath Resume Template](https://www.overleaf.com/latex/templates/faangpath-simple-template/npsfpdqnxmbc)
